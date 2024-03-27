@@ -1,0 +1,16 @@
+
+{
+    "type": "postgres",
+    "host": "35.234.18.80",
+    "port": 5432,
+    "username": "admin_crew",
+    "password": "xV/nI2+=uOI&KL1P",
+    "database": "crewdb",
+    "entities": ["src/entities/*.ts"],
+    "migrations": ["src/migration/**/*.ts"],
+    "cli": {
+      "entitiesDir": "src/entities",
+      "migrationsDir": "src/migration"
+    }
+  }
+  
